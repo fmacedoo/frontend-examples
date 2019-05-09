@@ -3,7 +3,7 @@ import { getStatusBarHeight } from 'react-native-iphone-x-helper';
 
 export const Container = styled.View`
   flex: 1;
-  background: #000000b0;
+  background: #383838;
   padding-top: ${getStatusBarHeight()}px;
 `;
 
@@ -19,6 +19,10 @@ export const Card = styled.View`
   border-radius: 4px;
   margin: 0 20px;
   height: 100%;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
 `;
 
 export const CardHeader = styled.View`
