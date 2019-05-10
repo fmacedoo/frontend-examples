@@ -1,13 +1,10 @@
 import React from 'react';
-import { StatusBar } from 'react-native';
+import {View} from 'react-native';
 
-import Main from './src/screens/Main';
+import Main from './src/bank/screens/Main';
 
 export default function App() {
   return (
-    <>
-      <StatusBar barStyle="light-content" backgroundColor="#0000008a" />
-      <Main />
-    </>
+    <Main />
   );
 }
